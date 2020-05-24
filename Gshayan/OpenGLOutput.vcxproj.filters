@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="controll_socket_opengl.cpp" />
+    <ClCompile Include="AnimBezierKeyCallback.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimCallback.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimLinearKeyCallback.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimMatrixKeyCallback.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimStepKeyCallback.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimtkStateSetUpdateCallback.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="ControolPack.cpp">
+      <Filter>packs</Filter>
+    </ClCompile>
+    <ClCompile Include="convertutf8.cpp">
+      <Filter>packs</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckLinkAPI_i.c">
+      <Filter>decklink</Filter>
+    </ClCompile>
+    <ClCompile Include="GdiKeyer.cpp">
+      <Filter>decklink</Filter>
+    </ClCompile>
+    <ClCompile Include="GLExtensions.cpp">
+      <Filter>decklink</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_reader.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_value.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_writer.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets\PackReader.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Osgtest01.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets\SettingPack.cpp">
+      <Filter>packs</Filter>
+    </ClCompile>
+    <ClCompile Include="shNodePic.cpp">
+      <Filter>packs</Filter>
+    </ClCompile>
+    <ClCompile Include="stateSetCallback_ImageSequence.cpp">
+      <Filter>osg</Filter>
+    </ClCompile>
+    <ClCompile Include="G01.cpp">
+      <Filter>based</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets\soceketS1.cpp">
+      <Filter>based</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>based</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimBezierKeyCallback.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimCallback.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimLinearKeyCallback.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimMatrixKeyCallback.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimStepKeyCallback.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimtkStateSetUpdateCallback.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="ControolPack.h">
+      <Filter>packs</Filter>
+    </ClInclude>
+    <ClInclude Include="convertutf8.h">
+      <Filter>packs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeckLinkAPI_h.h">
+      <Filter>decklink</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiKeyer.h">
+      <Filter>decklink</Filter>
+    </ClInclude>
+    <ClInclude Include="GLExtensions.h">
+      <Filter>decklink</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib_json\json_batchallocator.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\PackReader.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Osgtest01.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\SettingPack.h">
+      <Filter>packs</Filter>
+    </ClInclude>
+    <ClInclude Include="shNodePic.h">
+      <Filter>packs</Filter>
+    </ClInclude>
+    <ClInclude Include="stateSetCallback_ImageSequence.h">
+      <Filter>osg</Filter>
+    </ClInclude>
+    <ClInclude Include="controll_socket_opengl.h">
+      <Filter>based</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>based</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\soceketS1.h">
+      <Filter>based</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>based</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>based</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lib_json\sconscript" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="osg">
+      <UniqueIdentifier>{ab0b1cd6-8b1c-4676-b6ed-91152ae6c722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{4e55c80c-0874-45d6-a5ad-f9e040b02eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packs">
+      <UniqueIdentifier>{ba88761d-b0d9-4b90-9709-ff568eb3a715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decklink">
+      <UniqueIdentifier>{41cf73e8-89dd-4c44-a527-ce473fca6f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="based">
+      <UniqueIdentifier>{eddf9cf5-9b2c-40c0-b90d-1a70f740d1cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="include\DeckLinkAPI.idl">
+      <Filter>decklink</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

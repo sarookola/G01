@@ -1,0 +1,11 @@
+﻿  main.cpp
+  imgui_impl_glfw_gl2.cpp
+  imgui_draw.cpp
+  imgui_demo.cpp
+  imgui.cpp
+  Generating Code...
+glfw3.lib(init.obj) : warning LNK4217: locally defined symbol _vsnprintf imported in function __glfwInputError
+MSVCRTD.lib(vsnprintf.obj) : warning LNK4049: locally defined symbol _vsnprintf imported
+glfw3.lib(context.obj) : warning LNK4217: locally defined symbol _sscanf imported in function _parseVersionString
+MSVCRTD.lib(vsnprintf.obj) : warning LNK4049: locally defined symbol __vsnprintf imported
+  opengl2_example.vcxproj -> C:\work\G01\imgui\opengl2_example\Debug\opengl2_example.exe

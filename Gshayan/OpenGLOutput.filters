@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="DeckLink API">
+      <UniqueIdentifier>{6edeaf31-d679-4ccb-93bf-b3ed01ca8071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{d842ac08-6b1e-49d4-898b-938c04b8dd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\json">
+      <UniqueIdentifier>{b9b4699a-6c81-4806-a123-f24d5a21ac1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\data">
+      <UniqueIdentifier>{11cfc56e-b428-453f-8cfc-9f5161687ca3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLExtensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckLinkAPI_i.c">
+      <Filter>DeckLink API</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets\SettingPack.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_writer.cpp">
+      <Filter>socket\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_reader.cpp">
+      <Filter>socket\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib_json\json_value.cpp">
+      <Filter>socket\json</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets\soceketS1.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="controll_socket_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shNodePic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Osgtest01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimMatrixKeyCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimBezierKeyCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimStepKeyCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimLinearKeyCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimtkStateSetUpdateCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="convertutf8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stateSetCallback_ImageSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControolPack.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets\PackReader.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GdiKeyer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLExtensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\SettingPack.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib_json\json_batchallocator.h">
+      <Filter>socket\json</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\soceketS1.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="controll_socket_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shNodePic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Osgtest01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimMatrixKeyCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimBezierKeyCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimStepKeyCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimLinearKeyCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimtkStateSetUpdateCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convertutf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stateSetCallback_ImageSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControolPack.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\PackReader.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiKeyer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="OpenGLOutput.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGLOutput.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lib_json\json_internalarray.inl">
+      <Filter>socket\json</Filter>
+    </None>
+    <None Include="src\lib_json\json_internalmap.inl">
+      <Filter>socket\json</Filter>
+    </None>
+    <None Include="src\lib_json\json_valueiterator.inl">
+      <Filter>socket\json</Filter>
+    </None>
+    <None Include="src\lib_json\sconscript">
+      <Filter>socket\json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="include\DeckLinkAPI.idl">
+      <Filter>DeckLink API</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

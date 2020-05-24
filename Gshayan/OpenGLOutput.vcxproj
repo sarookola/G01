@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3C60BAF-CC08-4DA8-ABBF-227B3A101CD3}</ProjectGuid>
+    <RootNamespace>OpenGLOutput</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>GShayan</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <UseOfMfc>
+    </UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\OpenSceneGraph\include;$(SolutionDir)\imgui\libs\glfw\include;;$(SolutionDir)\imgui\imgui</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;Glu32.lib;Ws2_32.lib;Mswsock.lib;AdvApi32.lib;osgd.lib;osgviewerd.lib;osgdbd.lib;osgUtild.lib;osgGAd.lib;osgViewerd.lib;osgTextd.lib;osgDBd.lib;zlibd.lib;OpenThreadsd.lib;comsuppwd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\OpenSceneGraph\lib;$(SolutionDir)\imgui\libs\glfw\lib-vc2010-32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\OpenSceneGraph\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AssemblerOutput>
+      </AssemblerOutput>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;Glu32.lib;Ws2_32.lib;Mswsock.lib;AdvApi32.lib;osg.lib;osgviewer.lib;osgdb.lib;osgUtil.lib;osgGA.lib;osgViewer.lib;osgText.lib;osgDB.lib;zlib.lib;OpenThreads.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\OpenSceneGraph\lib;C:\Qt\work\OpenGLOutput\OpenGLOutput\sockets\include\src</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimBezierKeyCallback.cpp" />
+    <ClCompile Include="AnimCallback.cpp" />
+    <ClCompile Include="AnimLinearKeyCallback.cpp" />
+    <ClCompile Include="AnimStepKeyCallback.cpp" />
+    <ClCompile Include="AnimMatrixKeyCallback.cpp" />
+    <ClCompile Include="AnimtkStateSetUpdateCallback.cpp" />
+    <ClCompile Include="controll_socket_opengl.cpp" />
+    <ClCompile Include="ControolPack.cpp" />
+    <ClCompile Include="convertutf8.cpp" />
+    <ClCompile Include="GdiKeyer.cpp" />
+    <ClCompile Include="GLExtensions.cpp" />
+    <ClCompile Include="G01.cpp" />
+    <ClCompile Include="Osgtest01.cpp" />
+    <ClCompile Include="shNodePic.cpp" />
+    <ClCompile Include="sockets\PackReader.cpp" />
+    <ClCompile Include="sockets\SettingPack.cpp" />
+    <ClCompile Include="sockets\soceketS1.cpp" />
+    <ClCompile Include="src\lib_json\json_reader.cpp" />
+    <ClCompile Include="src\lib_json\json_value.cpp" />
+    <ClCompile Include="src\lib_json\json_writer.cpp" />
+    <ClCompile Include="stateSetCallback_ImageSequence.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DeckLinkAPI_i.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimBezierKeyCallback.h" />
+    <ClInclude Include="AnimCallback.h" />
+    <ClInclude Include="AnimLinearKeyCallback.h" />
+    <ClInclude Include="AnimStepKeyCallback.h" />
+    <ClInclude Include="AnimMatrixKeyCallback.h" />
+    <ClInclude Include="AnimtkStateSetUpdateCallback.h" />
+    <ClInclude Include="controll_socket_opengl.h" />
+    <ClInclude Include="ControolPack.h" />
+    <ClInclude Include="convertutf8.h" />
+    <ClInclude Include="GdiKeyer.h" />
+    <ClInclude Include="GLExtensions.h" />
+    <ClInclude Include="include\DeckLinkAPI_h.h" />
+    <ClInclude Include="Osgtest01.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="shNodePic.h" />
+    <ClInclude Include="sockets\SettingPack.h" />
+    <ClInclude Include="sockets\PackReader.h" />
+    <ClInclude Include="sockets\soceketS1.h" />
+    <ClInclude Include="src\lib_json\json_batchallocator.h" />
+    <ClInclude Include="stateSetCallback_ImageSequence.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lib_json\sconscript" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="include\DeckLinkAPI.idl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
